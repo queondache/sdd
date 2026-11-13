@@ -6,8 +6,9 @@ mai chiedere all'utente un fatto o una scelta tecnica.
 ## 1. Ingresso
 
 - Milestone di ROADMAP: usa quella; assegna `F<NN>` come in `SKILL.md` ("Funzionalità e codici").
-- Funzionalità che non è in SPEC né in ROADMAP: fermati. Prima entra in `SPEC.md` (skill
-  `spec-builder`), poi `allineamento` la mette in ROADMAP; poi si torna qui.
+- Funzionalità che non è in SPEC né in ROADMAP: fermati. Prima entra in `SPEC.md` (fase
+  `progetto`, leggi `phases/spec-builder.md`), poi la fase `roadmap`
+  (`phases/allineamento.md`) la mette in ROADMAP; poi si torna qui.
 - Crea `specs/<NN>-<slug>/spec.md` da `templates/spec.md`, `stato: piano`, con la riga
   `fonte:` che nomina la milestone. Se esiste già,
   riprendi: le decisioni in `## Decisioni di Andrea` sono chiuse, riparti dalle aperte.
